@@ -1,0 +1,34 @@
+* {
+    margin: auto;
+    /*mudei de margin 0 pra margin auto*/
+    padding: 0;
+    /*evitar espaçamento automático no body*/
+    /* align-items: center; */
+    /*ver se ele fez igual*/
+}
+
+
+/*seletor universal que será aplicado a todo o documento*/
+
+body {
+    height: 100vh;
+    /*vh = viewport height*/
+    color: white;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body,
+input,
+button,
+textarea {
+    /* font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Nunito', sans-serif; */
+    /*se não achar a primeira fonte, por default será sans-serif*/
+    /*agrupar estilos  font: 400 18px/1 'Nunito', sans-serif   ou aplicando o root lá em cima põe: font: 400 1.8rem/1 'Nunito', sans-serif*/
+    font: 400 1.8rem/1 'Nunito', sans-serif
+}
